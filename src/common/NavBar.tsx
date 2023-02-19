@@ -20,7 +20,7 @@ export const NavBar: React.FC<{}> = () => {
           <Container maxWidth="xl">
             <Grid container direction="row" justifyContent="space-between" alignItems="center">
                 <Grid item>
-                    <Avatar alt="logo" src={logo} onClick={() => navigate("/")} 
+                    <Avatar alt="logo" src={logo} onClick={() => window.location.assign("https://rapha.uy")} 
                       sx={{ cursor: 'pointer', '&:hover': {cursor: 'pointer'} }} />
                 </Grid>
                 <Stack spacing={1} direction="row">
